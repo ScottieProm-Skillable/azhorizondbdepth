@@ -198,6 +198,7 @@ In this task you deploy the models and record their details.
     | Resource Group     | @lab.CloudResourceGroup(HorizonDB-RG).Name        |
     | Name         | `Foundry-@lab.LabInstance.Id` |
     | Region         | @lab.CloudResourceGroup(HorizonDB-RG).Location        |
+    | Application insights         | Select **None**        |
     | Default Project Name | `project-@lab.LabInstance.Id`    |
 
     Select Review+create.
